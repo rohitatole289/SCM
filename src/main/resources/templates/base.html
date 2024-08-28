@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"   class="light"
+th:fragment="parent"
+xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" data-th-href="@{'/css/output.css'}" />
+<link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/all.min.css" integrity="sha512-eBNnVs5xPOVglLWDGXyZnZZ2K2ixXhR/3aECgCpFnW2dGCd/yiqXZ6fcB3BubeA91kM6NX234b6Wrah8RiYAPA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Base Page</title>
+</head>
+<body>
+    <div data-th-replace="~{navbar :: navbar}"> </div>
+    
+   
+   <div data-th-replace="~{footer :: footer}"></div>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+    <script src="https://kit.fontawesome.com/f7151e4674.js" crossorigin="anonymous"></script>
+  <script src="/js/script.js"></script>
+
+</body>
+</html>
